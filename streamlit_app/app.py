@@ -3,10 +3,11 @@ import requests
 
 # Backend endpoint
 BACKEND = "http://backend:8000"
+#BACKEND = "https://ai-marketing-agents-ai.onrender.com"
 
 st.title("EdTech AI Marketing Agents")
 agent = st.selectbox("Run individual agent", [
-    "Researcher", "Content Creator","Social Media Manager", "Email Marketer", "Manager"]) # "social"
+    "Researcher", "Content Creator","Social Media Manager", "Email Marketer", "Manager"]) 
 
 if st.button("Run Agent"):
     try:
