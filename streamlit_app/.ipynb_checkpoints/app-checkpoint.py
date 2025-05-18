@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 
 # Backend endpoint
-BACKEND = "http://backend:8000"
-#BACKEND = "https://ai-marketing-agents-ai.onrender.com"
+#BACKEND = "http://backend:8000"
+BACKEND = "https://ai-marketing-agents-ai.onrender.com"
 
 st.title("EdTech AI Marketing Agents")
 agent = st.selectbox("Run individual agent", [
