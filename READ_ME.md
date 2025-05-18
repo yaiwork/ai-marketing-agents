@@ -26,7 +26,8 @@ This application is an AI-powered marketing automation system designed for Virtu
 ## Tech Stack
 
 - Python 3.10+
-- FastAPI (Backend API)
+- FastAPI (Backend API) 
+- Render (Backend API)
 - Streamlit (Frontend UI)
 - CrewAI + LangChain + OpenAI
 - ChromaDB (optional memory storage)

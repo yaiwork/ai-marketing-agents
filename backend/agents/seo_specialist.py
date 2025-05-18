@@ -1,18 +1,4 @@
 from crewai import Agent
-# #from langchain.chat_models import ChatOpenAI
-# #from langchain_community.chat_models import ChatOpenAI
-# from langchain_openai import ChatOpenAI
-
-# def create_seo_specialist():
-#     return Agent(
-#         role="optimizes for search engines",
-#         goal="Find and summarize the latest marketing trends for EdTech",
-#         backstory="Web-based research expert.",
-#         verbose=True,
-#         llm=ChatOpenAI()
-#     )
-
-from crewai import Agent
 from langchain_openai import ChatOpenAI
 
 def create_seo_specialist():

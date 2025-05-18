@@ -1,17 +1,3 @@
-# from crewai import Agent
-# #from langchain.chat_models import ChatOpenAI
-# #from langchain_community.chat_models import ChatOpenAI
-# from langchain_openai import ChatOpenAI
-
-# def  create_marketing_manager():
-#     return Agent(
-#         role="leads the whole operation",
-#         goal="Find and summarize the latest marketing trends for EdTech",
-#         backstory="Web-based research expert.",
-#         verbose=True,
-#         llm=ChatOpenAI()
-#     )
-
 from crewai import Agent
 from langchain_openai import ChatOpenAI
 

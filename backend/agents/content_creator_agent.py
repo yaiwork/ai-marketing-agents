@@ -1,17 +1,3 @@
-# from crewai import Agent
-# #from langchain.chat_models import ChatOpenAI
-# #from langchain_community.chat_models import ChatOpenAI
-# from langchain_openai import ChatOpenAI
-
-# def create_content_creator():
-#     return Agent(
-#         role="creates content",
-#         goal="creates marketing contents for virtualestudy.com",
-#         backstory="Web-based research expert.",
-#         verbose=True,
-#         llm=ChatOpenAI()
-#     )
-
 from crewai import Agent
 from langchain_openai import ChatOpenAI
 
